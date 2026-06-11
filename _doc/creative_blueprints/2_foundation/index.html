@@ -1,0 +1,110 @@
+<style>
+  .mode-landscape .sl-layout  { flex-direction: row; }
+  .mode-portrait  .sl-layout  { flex-direction: column; }
+  .mode-landscape .sl-problem { width: 50%; }
+  .mode-landscape .sl-solution{ width: 50%; }
+  .mode-portrait  .sl-problem { width: 100%; }
+  .mode-portrait  .sl-solution{ width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Problem -->
+    <div class="sl-problem flex flex-col justify-center p-10 bg-slate-50 border-r border-slate-200">
+      <div class="flex items-center gap-2 mb-5">
+        <div class="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
+        <p class="text-xs font-bold text-red-600 uppercase tracking-widest">The Problem</p>
+      </div>
+      <h2 class="text-2xl font-black text-slate-900 leading-snug mb-6">
+        Compliance tracking is <span class="text-red-600">manual,<br/>fragmented, and exam-failing</span>
+      </h2>
+      <div class="space-y-3">
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div class="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+          </div>
+          <p class="text-sm text-slate-600">Expired certificates go unnoticed — discovered only when a regulator asks</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div class="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+          </div>
+          <p class="text-sm text-slate-600">HR spends hours each week manually chasing documents via email</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div class="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+          </div>
+          <p class="text-sm text-slate-600">No unified view across departments — scorecards are outdated spreadsheets</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div class="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+          </div>
+          <p class="text-sm text-slate-600">Escalation chains are informal — non-compliance persists weeks with no audit trail</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div class="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+          </div>
+          <p class="text-sm text-slate-600">Sales, Compliance/Risk, and HR each follow different rules with no shared framework</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solution -->
+    <div class="sl-solution flex flex-col justify-center p-10 bg-blue-900">
+      <div class="flex items-center gap-2 mb-5">
+        <div class="w-2.5 h-2.5 bg-amber-400 rounded-full"></div>
+        <p class="text-xs font-bold text-amber-400 uppercase tracking-widest">The Solution</p>
+      </div>
+      <h2 class="text-2xl font-black text-white leading-snug mb-6">
+        One platform that automates the <span class="text-amber-400">full compliance lifecycle</span>
+      </h2>
+      <div class="space-y-3">
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-2.5 h-2.5 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <p class="text-sm text-blue-100">Employees see a real-time color-coded scorecard and upload docs in one click</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-2.5 h-2.5 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <p class="text-sm text-blue-100">HR configures rules per department, role, and document — flexible and enforceable</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-2.5 h-2.5 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <p class="text-sm text-blue-100">Automated alerts at 90, 30, and 7 days before expiry — and every 7 days after</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-2.5 h-2.5 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <p class="text-sm text-blue-100">Structured escalation: Manager → HR → CCO with timestamps and attribution</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-5 h-5 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-2.5 h-2.5 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <p class="text-sm text-blue-100">CSV/PDF export on demand — audit-ready in minutes, not preparation days</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
